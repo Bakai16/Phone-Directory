@@ -14,7 +14,7 @@ const App = () => {
     }
   }, []);
 
-  // Обновление localStorage при изменении контактов
+  // Обновление localStorage при изменении контактовs
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
